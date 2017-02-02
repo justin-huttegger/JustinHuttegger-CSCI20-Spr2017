@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int yearInFuture = 0;
-    int currentYear = 2016;
+    int currentYear = 2017;
     int currentPop = 324472975;
     int popChangePerYear = 2102400;
     
