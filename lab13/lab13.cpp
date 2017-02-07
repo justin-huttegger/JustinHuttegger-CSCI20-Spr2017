@@ -10,6 +10,8 @@ int main() {
     cout << "How many years in the future would you like to predict?" << endl;
     cin >> yearInFuture;
     
+    cout << "What is the current net gain of US population?" << endl;
+    cin >> popChangePerYear;
     cout << "In the year " << currentYear + yearInFuture << " the population of the United States will be " << ( yearInFuture * popChangePerYear ) + currentPop; 
     cout << endl;
     
