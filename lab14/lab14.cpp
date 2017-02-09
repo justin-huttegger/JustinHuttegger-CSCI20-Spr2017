@@ -16,9 +16,17 @@ int main() {
     cin >> userCents;
     
     outQuarters =  userCents / 25;
-    outDimes = userCents % 10;
-    outNickels = userCents % 5;
-    outPennies = userCents % 1;
+    userCents = userCents % 25;
+    
+    outDimes = userCents / 10;
+    userCents = userCents % 10;
+    
+    outNickels = userCents / 5;
+    userCents = userCents % 5;
+    
+    outPennies = userCents / 1;
+    userCents = userCents;
+    
 
 
     cout <<"You have " << outQuarters << " quarters, " << outDimes << " dimes, " << outNickels << " nickels, and " << outPennies << " pennies."  << endl;
