@@ -3,17 +3,17 @@
 using namespace std;
 
 int main() {
-    string wordAdjective;
-    string wordPluralNoun;
-    string wordNoun;
-    string wordAdjectiveTwo;
-    string wordPartOfBody;
-    string wordAdjectiveThree;
-    string wordPluralNounTwo;
-    string wordPartOfBodyTwo;
-    string wordAdjectiveFour;
-    string wordAdverb;
-    string wordNounTwo;
+    string wordAdjective = "great";
+    string  wordPluralNoun = "Jawas";
+    string  wordNoun = "dog";
+    string  wordAdjectiveTwo = "tiny";
+    string  wordPartOfBody = "head";
+    string  wordAdjectiveThree = "high";
+    string  wordPluralNounTwo = "Death Star";
+    string  wordPartOfBodyTwo = "leg";
+    string  wordAdjectiveFour = "giant";
+    string  wordAdverb = "delicately";
+    string  wordNounTwo = "horse";
     
     cout << "Enter an adjective:" << endl;
     cin >> wordAdjective;
