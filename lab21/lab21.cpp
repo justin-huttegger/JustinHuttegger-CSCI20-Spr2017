@@ -1,7 +1,7 @@
 /*Justin Huttegger
   CSCI 20
-  Feb 16, 2017
-  1.6 Lab - Objects
+  Feb 21, 2017
+  2.1 Lab - Calling Functions
   
   The program outputs information about windchills based on what the user's inputs are.
 */
