@@ -9,7 +9,7 @@
 #include <ctime>
 using namespace std;
 
-void swapNumber(int &userNumber, int &userNumber2) {
+void swapNumber(int &userNumber, int &userNumber2) { //swapping function to change order of numbers
     userNumber2 = userNumber + userNumber2;
     userNumber = userNumber2 - userNumber;
     userNumber2 = userNumber2 - userNumber;
