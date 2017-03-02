@@ -23,7 +23,7 @@ void Swap(int &userNumber, int &userNumber2) { //swapping function to change ord
     
     cout << "A random number between ";
     Swap(userNumber, userNumber2);
-    cout << userNumber2 << " and " << userNumber << " is " << rand() % userNumber2 + 1;
+    cout << userNumber << " and " << userNumber2 << " is " << rand() % (userNumber2-userNumber) + userNumber + 1;
     
     return;
 } 
