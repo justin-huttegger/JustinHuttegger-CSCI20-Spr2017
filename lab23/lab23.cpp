@@ -18,7 +18,7 @@ void Swap(int &userNumber, int &userNumber2) { //swapping function to change ord
     
 }
 
- void randomNumber(int &userNumber, int &userNumber2) {
+ void randomNumber(int &userNumber, int &userNumber2) { //random number function
     srand(time(0));
     
     cout << "A random number between ";
