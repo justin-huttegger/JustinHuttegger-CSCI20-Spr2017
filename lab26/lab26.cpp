@@ -72,9 +72,6 @@ class TemperatureConverter {
     
     
     
-    
-    
-    
  /* Created By: April Browne
  * Created On: 9/22/2016
  * This program will run the Temperature Converter Class
