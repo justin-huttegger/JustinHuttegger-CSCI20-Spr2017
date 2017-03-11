@@ -40,7 +40,7 @@ class TemperatureConverter {
     
     
     
-    void TemperatureConverter::SetTempFromFahrenheit( double fahrenheitTemp ){
+    void TemperatureConverter::SetTempFromFahrenheit( double fahrenheitTemp ){//converts to fahrenheit
         kelvin_ = ( 5 * ( fahrenheitTemp - 32 ) / 9 ) + 273.15;
     }
     
