@@ -13,14 +13,13 @@ using namespace std;
 
 class DistanceConverter { //Class to convert distance
     public:
-        void SetInitialDistance(double milesDist, double yardsDist, double feetDist, double inchesDist);
         void SetDistFromMiles( double milesDist );
         void SetDistFromYards( double yardsDist );
         void SetDistFromFeet( double feetDist );
         void SetDistFromInches( double inchesDist );
         void PrintDistances();
         DistanceConverter();
-        DistanceConverter(double mile_);
+        DistanceConverter(double milesVal);
         
         double GetDistAsMiles();
         double GetDistAsYards();
@@ -28,39 +27,32 @@ class DistanceConverter { //Class to convert distance
         double GetDistAsInches();
         double GetInitialDistance();
     private:
-        double initialDist_;
+        double miles_;
 };
 
     DistanceConverter::DistanceConverter(){ //Default constructor
-        initialDist_ = 0;
+        miles_ = 0;
     }
     
-    void DistanceConverter::SetInitialDistance( double milesDist, double yardsDist, double feetDist, double inchesDist){
-        
-        initialDist_ = milesDist;
-        milesDist = 1;
-        initialDist_ = yardsDist;
-        yardsDist = 1760;
-        initialDist_= feetDist;
-        feetDist = 5280;
-        initialDist_ = inchesDist;
-       // inchesDist = ;
+    DistanceConverter::DistanceConverter(double milesVal){
+        miles_ = milesVal; 
     }
+    
     
     void DistanceConverter::SetDistFromMiles( double milesDist ){
-        initialDist_ = milesDist;
+        miles_ = milesDist;
     }
     
     void DistanceConverter::SetDistFromYards( double yardsDist ){
-        initialDist_ = yardsDist / 3;
+        miles_ = yardsDist / 3;
     }
     
     void DistanceConverter::SetDistFromFeet( double feetDist ){
-        initialDist_ = feetDist / 1;
+        miles_ = feetDist / 1;
     }
     
     void DistanceConverter::SetDistFromInches( double inchesDist ){
-        initialDist_ = inchesDist / 0.08333333333;
+        miles_ = inchesDist / 0.08333333333;
     }
     
     double DistanceConverter::GetDistAsMiles(){
