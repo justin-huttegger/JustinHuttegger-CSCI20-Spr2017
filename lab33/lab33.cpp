@@ -17,11 +17,10 @@ int main() {
     int numGuesses;
     
     randomNumber = rand() % 50 + 1;
-    
+
     cout << "Enter a number between 1 and 50 to guess the random number." << endl;
-    cin >> userNumber;
-        
         while (randomNumber != userNumber) {
+            cin >> userNumber;
             if (randomNumber > userNumber) {
                 cout << "Too low. Try again" << endl;
             } // end if
@@ -34,6 +33,5 @@ int main() {
                 userNumber == randomNumber;
             }
             } // end while
- 
        return 0;
 } // end main  
