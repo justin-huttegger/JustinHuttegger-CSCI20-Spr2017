@@ -2,6 +2,20 @@
 #include lab41.cpp
 using namespace std;
 
+class ArrayTools { 
+    public: 
+        string Print; 
+        int Find_min;
+        int Find_max;
+        int Find_sum;
+        int Num_even;
+        int Num_odd;
+        int Search;
+        int Is_sorted;
+    
+    private:
+}
+
 int main()
 {
     const int SIZE = 10;
