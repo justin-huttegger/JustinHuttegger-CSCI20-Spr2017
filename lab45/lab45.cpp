@@ -18,7 +18,7 @@ int main() {
     cout << "Enter your first name." << endl;
     cin >> firstName;
     
-//Gets the length of the string
+
     if(firstName.size() >= 11) {
         cout << "First name can only be 10 characters or less." << endl;
         
