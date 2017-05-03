@@ -53,7 +53,8 @@ ifstream test;
     test >> unitGrade4;
     test >> unitGrade5;
     
-    
+    cout << "Student name." << endl;
+    test >> studentName;
     cout << "Output semester GPA." << endl;
     test >> semesterGPA;
     cout << "Output overall GPA." << endl;
